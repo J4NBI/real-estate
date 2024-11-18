@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 const Header = () => {
   return (
-    <div id='Header' className='relative bg-[url("header_img.png")] min-h-screen flex mb-4 bg-cover bg-center overflow-hidden w-full items-center'>
+    <div id='Header' style={{ backgroundImage: 'url("header_img.png")' }} className='relative  min-h-screen flex mb-4 bg-cover bg-center overflow-hidden w-full items-center'>
       <motion.div
         initial={{opacity: 0, y:100}}
         transition={{duration: 1.5}}
